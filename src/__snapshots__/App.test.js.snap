@@ -4,7 +4,6 @@ exports[`renders with myFeature enabled 1`] = `
 <div>
   <div>
     My feature is enabled
-    My feature is disabled
   </div>
 </div>
 `;

@@ -6,7 +6,7 @@ class App extends Component {
     return (
       <div>
         <FeatureFlag name="myFeature">My feature is enabled</FeatureFlag>
-        <FeatureFlag name="myFeature">My feature is disabled</FeatureFlag>
+        <FeatureFlag name="!myFeature">My feature is disabled</FeatureFlag>
       </div>
     );
   }
