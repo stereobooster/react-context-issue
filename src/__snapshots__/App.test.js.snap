@@ -1,11 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders with myFeature disabled 1`] = `
-<div>
-  <div />
-</div>
-`;
-
 exports[`renders with myFeature enabled 1`] = `
 <div>
   <div>

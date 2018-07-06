@@ -19,14 +19,20 @@ describe("renders", () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it("with myFeature disabled", () => {
-    const tree = renderer.create(subject({ myFeature: false })).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
+  // it("with myFeature disabled", () => {
+  //   const tree = renderer.create(subject({ myFeature: false })).toJSON();
+  //   expect(tree).toMatchSnapshot();
+  // });
 
   it("mounts with myFeature disabled", () => {
     const tree = mount(subject({ myFeature: false }));
     expect(true).toBe(true);
     tree.unmount();
   });
+
+  // it("mounts with myFeature enabled", () => {
+  //   const tree = mount(subject({ myFeature: true }));
+  //   expect(true).toBe(true);
+  //   tree.unmount();
+  // });
 });

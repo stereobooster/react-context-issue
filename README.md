@@ -1,5 +1,8 @@
 # Demo of the issue with context testing
 
+- https://github.com/facebook/react/issues/13150
+- https://github.com/airbnb/enzyme/issues/1693
+
 ```
 yarn
 yarn test
